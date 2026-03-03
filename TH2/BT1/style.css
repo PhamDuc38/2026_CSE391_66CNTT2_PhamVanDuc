@@ -1,0 +1,59 @@
+body {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.one input[type="text"],input[type="email"]{
+    width: 45%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    color: #666;
+}
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+.two input[type="text"]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    color: #666;
+}
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: none;
+    color: #666;
+    height: 500px;
+}
+.two,.three{
+    display: flex;
+}
+.four{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: #5fa3ec;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 12px 20px;
+}
+span{
+    color: #666;
+}
+
