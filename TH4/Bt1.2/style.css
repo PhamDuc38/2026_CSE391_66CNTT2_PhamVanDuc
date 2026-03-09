@@ -1,0 +1,17 @@
+body { margin: 20px; line-height: 1.6; font-family: Arial, sans-serif; }
+.input-group, .filter-group { margin-bottom: 15px; display: flex; gap: 10px; }
+input, select { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+#txtSearch { flex-grow: 1; }
+
+button { padding: 8px 15px; cursor: pointer; background-color: #28a745; color: white; border: none; border-radius: 4px; }
+button:hover { background-color: #218838; }
+
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { border: 1px solid #ddd; padding: 10px; text-align: center; }
+th { background-color: #f4f4f4; }
+
+.warning { background-color: #fff3cd !important; } 
+.btn-delete { background-color: #dc3545; }
+.statistics { margin-top: 15px; font-weight: bold; padding: 10px; background: #e9ecef; border-radius: 4px; }
+
+.no-data { padding: 20px; color: #888; font-style: italic; }
